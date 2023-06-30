@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+
+    <id>Memory.Net</id>
+
+    <version>0.0.0.4</version>
+
+    <title>Memory.Net</title>
+
+    <authors>ImmuneLion318</authors>
+    <owners>ImmuneLion318</owners>
+
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+
+    <icon>Storage\Logo.png</icon>
+    <readme>Storage\ReadMe.md</readme>
+
+    <projectUrl>https://github.com/ImmuneLion318/Memory.Net/</projectUrl>
+
+    <description>Memory.Net C# Memory Manipulation, And Disassembler, Thread And Module Manipulation With Pattern Scanning And Much More.</description>
+    <summary>Memory.Net Comprehensive And Extensive C# Memory Library For Manipulation And Exploitation Of Memory.</summary>
+    <releaseNotes>Updated Core Memory Factory And Its Usage.</releaseNotes>
+
+    <copyright>Copyright � 2023</copyright>
+    <language>en-US</language>
+    <tags>C# .Net Memory Unmanaged</tags>
+
+    <dependencies>
+      <group targetFramework=".NETFramework4.8" />
+    </dependencies>
+
+  </metadata>
+  <files>
+    <file src="..\bin\Release\Memory.Net.dll" target="lib\net48\Memory.Net.dll" />
+    <file src="..\bin\Release\Memory.Net.xml" target="lib\net48\Memory.Net.xml" />
+    <file src="Storage\Logo.png" target="Storage\Logo.png" />
+    <file src="Storage\ReadMe.md" target="Storage\ReadMe.md" />
+  </files>
+</package>
