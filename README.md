@@ -1,6 +1,17 @@
 # 📦 Memory.Net
 > **Memory.Net** - .Net C# Memory Manipulation & Exploitation Library, With Features Such As Pattern Scanning, Memory Basic Manipulation, Disassembly, Thread & Module Manipulation And Much More.
 
+**Memory.Net** - Development Progress
+--
+| Published | Library | Completion |
+| - | - | - |
+| ✔️  | Memory | ![img](https://progress-bar.dev/30) |
+| :x:  | Module | ![img](https://progress-bar.dev/0) |
+| :x:  | Thread | ![img](https://progress-bar.dev/0) |
+| ✔️  | Pattern | ![img](https://progress-bar.dev/10) |
+| :x:  | Disassembly | ![img](https://progress-bar.dev/0) |
+| :x:  | Assembly | ![img](https://progress-bar.dev/0) |
+
 **Memory.Net** - Documentation
 --
 ```cs
@@ -46,11 +57,3 @@ if (Out != true)
 string Data = Memory.Read<string>(Allocation, 1024);
 /* Should Contain "Hello World, From Memory.Net" */
 ```
-
-| Published | Library | Completion |
-| - | - | - |
-| ✔️  | Memory Manipulation | ![img](https://progress-bar.dev/30) |
-| :x:  | Module Manipulation | ![img](https://progress-bar.dev/0) |
-| :x:  | Thread Manipulation | ![img](https://progress-bar.dev/0) |
-| ✔️  | Pattern Scanning | ![img](https://progress-bar.dev/10) |
-| :x:  | Disassembly | ![img](https://progress-bar.dev/0) |
